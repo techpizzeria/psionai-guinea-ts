@@ -1,0 +1,16 @@
+{
+  "name": "guinea-billing",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Small billing service built on stripe-node",
+  "scripts": {
+    "build": "tsc --noEmit"
+  },
+  "dependencies": {
+    "stripe": "^8.222.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "typescript": "^5.5.0"
+  }
+}
