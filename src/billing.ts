@@ -32,7 +32,7 @@ export async function chargeCustomer(
     amount: amountCents,
     currency,
     customer: customerId,
-    payment_method_types: ["card"],
+    allowed_payment_method_types: ["card"],
     description: "guinea-billing one-off charge",
   });
 }
